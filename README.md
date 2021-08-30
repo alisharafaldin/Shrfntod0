@@ -1,4 +1,4 @@
-# Shrfntud
-الموقع الشخصي الرسمي للكاتب علي شرف الدين علي مختار
+# Shrfntod
+
 
 ## project Notse
