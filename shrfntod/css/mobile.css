@@ -1,0 +1,90 @@
+/* Utility Classes */
+.l-heading {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.lead {
+    font-size: 1rem;
+    line-height: 1.2;
+}
+/* Navbar */
+#navbar {
+    flex-direction: column;
+    padding-bottom: 1.5rem;
+}
+#navbar .logo {
+    margin-bottom: 0.3rem;
+}
+#navbar ul li a {
+    color: #fff;
+    padding: 0.5rem;
+}
+/* Section Navbar */  
+#navbar {
+    flex-direction: column;
+}
+
+/* Section: Showcase */
+#showcase {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    /* background: #252A34 url(../) no-repeat center left/contain; */
+
+}
+#showcase img {
+    width: 100%;
+}
+/* About */
+#about .about-content {
+    display: block;
+    text-align: right;
+}
+#about .about-content img {
+    width: 100%;
+    margin: 1rem 0 0 0;
+}
+
+/* Programs */
+#programs .boxes {
+    display: block;
+}
+/* Section: Trainers */
+#trainers .trainers-boxes {
+    display: block;
+}
+/* Contact */
+#contact {
+    flex-direction: column;
+}
+
+@media (max-width: 500px){
+    #navbar {
+        height: 100px;
+    }
+    #navbar ul {
+        display: flex;
+        text-align: center;
+        position: absolute;
+        top: 60px;
+    }
+    #navbar ul li {
+        padding: 0.5rem;
+        
+    }
+    #navbar ul li a {
+        font-size: 10px;
+    }
+    #contact .contact-us .form-group {
+        display: block;
+    }
+    #navbar div a img{
+        position: relative;
+        /* display: inline-block; */
+        width: 100%;
+        top: 0px;
+        text-align: center;
+        /* border: 2px solid; */
+    }
+
+}
